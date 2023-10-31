@@ -1,0 +1,24 @@
+{
+    "name": "user/serveur",
+    "autoload": {
+        "psr-4": {
+            "controller\\": "controllers/",
+            "model\\": "models/"
+        },
+        "files": [
+            "helpers/handleRequest.php",
+            "helpers/jsonResponse.php",
+            "helpers/jsonWebToken.php",
+            "configs/app.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Prosper226",
+            "email": "psedgo@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.9"
+    }
+}
